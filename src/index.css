@@ -1,0 +1,49 @@
+ /* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(1, 7, 12);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+
+:root {
+  --font-family-base: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-size-base: 1rem;
+  --line-height-base: 1.5;
+  --font-weight-base: 400;
+  --text-color: rgba(255, 255, 255, 0.87);
+  /* --background-color: rgb(1, 7, 12); */
+  background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1)), url(${track.thumbnail}) no-repeat center/cover";
+
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-base);
+  color-scheme: light dark;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive font scaling */
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-base: 0.9rem;
+  }
+}
+
