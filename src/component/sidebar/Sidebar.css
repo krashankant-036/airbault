@@ -1,6 +1,6 @@
 .sidebar {
     width: 200px;
-    background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1)), url(${track.thumbnail}) no-repeat center/cover";
+    background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1)),";
     /* background-color: #1e1e1e; */
     color: white;
     padding: 1rem;

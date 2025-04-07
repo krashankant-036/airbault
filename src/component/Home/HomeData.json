@@ -50,8 +50,9 @@
   {
       "id":6,
     "title": "Hymn for the weekend",
-    "thumbnail": "https://i.ytimg.com/vi/YykjpeuMNEk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZflSqE-o3SPhWckBBgF0Oe-QAjw",
+
     "musicUrl": "https://thetestdata.com/assets/audio/mp3/thetestdata-sample-mp3-3.mp3",
+"thumbnail": "https://i.ytimg.com/vi/YykjpeuMNEk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZflSqE-o3SPhWckBBgF0Oe-QAjw",
     "duration": "03:35",
     "artistName": "Coldplay"
   },

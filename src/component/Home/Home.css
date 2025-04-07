@@ -33,7 +33,7 @@
   /* border: 1px solid #ddd; */
   border-radius: 8px;
   /* background-color: #282424; */
-  background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1)), url(${track.thumbnail}) no-repeat center/cover";
+  background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1))";
   cursor: pointer;
   box-shadow: '0 4px 20px rgba(0, 0, 0, 10)';
   transition: background-color 0.3s;
@@ -42,7 +42,7 @@
 
 .track-card.playing {
   /* background-color: #212a32; */
-  background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1)), url(${track.thumbnail}) no-repeat center/cover";
+  background-color: "linear-gradient(to bottom, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 1))";
 }
 
 .track-left {
